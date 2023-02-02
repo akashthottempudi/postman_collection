@@ -1,0 +1,328 @@
+{
+	"info": {
+		"_postman_id": "df167326-3e21-4ef5-92d0-f1029ed47ca1",
+		"name": "Fetch Policy Details",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "25535159-df167326-3e21-4ef5-92d0-f1029ed47ca1"
+	},
+	"item": [
+		{
+			"name": "Correction api",
+			"item": [
+				{
+					"name": "Generate request",
+					"id": "0f6be33e-7a29-44a9-b177-72c966779d4f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n      \"AgentCode\": \"PBZ001\",\n      \"AgentName\": \"Policy Bazar\",\n      \"IMDCode\": \"IMD001\",\n      \"Guid\": \"GUID1234\",\n      \"PolicyNo\": \"2822201090166900\",\n      \"EndorsementName\": \"Correction In Previous Policy Details\",\n      \"SourceDate\": \"2019/08/02\",\n      \"UserIP\": \"86.123.127.8\",\n      \"CheckSumData\":\"26F4C3807AD412D6FF8C42EE005E394C\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/GenerateRequest",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"GenerateRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Date of Birth",
+					"id": "cedf3b54-45c5-4e1f-b460-9eedea3721c7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/GenerateRequest",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"GenerateRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insured Details",
+					"id": "7d9c2fae-fde1-475b-bf7e-999a196e6e35",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/GenerateRequest",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"GenerateRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Nominee Detail",
+					"id": "0c57e650-d918-48a3-9132-69878160432f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/GenerateRequest",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"GenerateRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Registration Number",
+					"id": "e5e7343f-87e9-4eb0-8259-5764d3383808",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/GenerateRequest",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"GenerateRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Engine Number",
+					"id": "15b21060-6c30-419f-aa17-de4965a986cf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/GenerateRequest",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"GenerateRequest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Chassis Number",
+					"id": "c61d1793-e2f6-47bc-89c4-1a8e444f01e7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/GenerateRequest",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"GenerateRequest"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "4fa3c35e-9403-4c4b-a08e-bbd765a30ce8"
+		},
+		{
+			"name": "Change api",
+			"item": [
+				{
+					"name": "RTO Location",
+					"id": "48acf72e-c674-480d-b052-d95b55154526",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/FetchOldPolicyDetails",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"FetchOldPolicyDetails"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Vehicle Model",
+					"id": "9ef5ea5f-02b1-4a13-9a42-c624031eb35c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/FetchOldPolicyDetails",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"FetchOldPolicyDetails"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Date Of Registration",
+					"id": "d7766912-4eac-4c97-88c6-53f08ec5096d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/FetchOldPolicyDetails",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"FetchOldPolicyDetails"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NCB Recovery",
+					"id": "56b4fd37-10c7-462e-aace-e65c8518165d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://uatcp.hdfcergo.com/EndorsementKit/api/Endorsement/FetchOldPolicyDetails",
+							"protocol": "https",
+							"host": [
+								"uatcp",
+								"hdfcergo",
+								"com"
+							],
+							"path": [
+								"EndorsementKit",
+								"api",
+								"Endorsement",
+								"FetchOldPolicyDetails"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "150c4495-9ebe-4e47-a3fd-63f3d2a48e81"
+		}
+	]
+}
